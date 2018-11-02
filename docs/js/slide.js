@@ -8,7 +8,7 @@ $(document).ready(function(){
 		var slides = $('.photo img');
 
 		for ( i = 0; i < slides.length; i++) {
-			console.log(i);
+		
 			$(slides[i]).hide();
 		}
 
